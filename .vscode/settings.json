@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^ls -la && git log --oneline \\| head -3; node -v; npm -v$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
